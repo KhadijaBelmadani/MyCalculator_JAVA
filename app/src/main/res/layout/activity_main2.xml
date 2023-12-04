@@ -4,32 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp"
-    tools:context=".MainActivity">
-
-   <EditText
-       android:id="@+id/UserName"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:hint="UserName"></EditText>
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserName"></EditText>
     <EditText
         android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:hint="Password"></EditText>
-    <EditText
-        android:id="@+id/RePassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Retype Password"></EditText>
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
-        android:text="Register"></Button>
     <Button
         android:id="@+id/btnLoggin"
         android:layout_width="match_parent"
