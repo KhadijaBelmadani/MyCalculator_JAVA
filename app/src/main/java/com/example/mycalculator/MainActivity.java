@@ -39,7 +39,7 @@ DBHelper dbHelper;
               pass=psw.getText().toString();
               rePass=repsw.getText().toString();
               if(u.equals("")|| pass.equals("")){
-                  Toast.makeText(MainActivity.this,"please all the fields",Toast.LENGTH_LONG).show();
+                  Toast.makeText(MainActivity.this,"please fill all the fields",Toast.LENGTH_LONG).show();
               }else{
                   if(pass.equals(rePass)){
                       if(dbHelper.checkUserName(u)){
